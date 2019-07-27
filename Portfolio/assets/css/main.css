@@ -2648,10 +2648,7 @@ input, select, textarea {
 		display: inline-block;
 		position: relative;
 	}
-	.image .first{
-	
 
-	}
 		.image img {
 			display: block;
 			border-radius: 4px;
@@ -5554,7 +5551,7 @@ input, select, textarea {
 			.spotlight.style4 {
 				padding: 4rem 3rem 2rem 3rem ;
 			}
----
+
 				.spotlight.style4 .content {
 					padding: 3rem 3rem 1rem 3rem ;
 				}
