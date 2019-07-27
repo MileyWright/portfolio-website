@@ -292,6 +292,7 @@ input, select, textarea {
 	.content span1{
 		font-family: "Dancing Script", cursive;
 		font-size:2.2rem;
+		color: goldenrod;
 	}
 
 	@media screen and (max-width: 736px) {
@@ -327,7 +328,7 @@ input, select, textarea {
 	}
 
 		a:hover {
-			color: #47D3E5;
+			color:goldenrod;
 		}
 
 	strong, b {
@@ -345,14 +346,17 @@ input, select, textarea {
 	.content span{
 		font-family: 'Dancing Script', cursive;
 		font-size:2.6rem;
+		color: goldenrod;
 	}
 	.content buttonspan{
 		font-family: 'Dancing Script', cursive;
 		font-size:1rem;
+		color: goldenrod;
 	}
 	.inner buttonspan{
 		font-family: 'Dancing Script', cursive;
 		font-size:2.1rem;
+		color: goldenrod;
 	}
 	code {
 		background: rgba(0, 0, 0, 0.05);
@@ -2211,8 +2215,8 @@ input, select, textarea {
 		input[type="button"]:hover,
 		button:hover,
 		.button:hover {
-			box-shadow: inset 0 0 0 1px #47D3E5;
-			color: #47D3E5 !important;
+			box-shadow: inset 0 0 0 1px goldenrod;
+			color: goldenrod !important;
 		}
 
 		input[type="submit"]:active,
@@ -2220,9 +2224,9 @@ input, select, textarea {
 		input[type="button"]:active,
 		button:active,
 		.button:active {
-			background-color: rgba(71, 211, 229, 0.2);
-			box-shadow: inset 0 0 0 1px #47D3E5;
-			color: #47D3E5 !important;
+			background-color:goldenrod;
+			box-shadow: inset 0 0 0 1px goldenrod;
+			color: goldenrod !important;
 		}
 
 		input[type="submit"].primary,
@@ -2240,7 +2244,7 @@ input, select, textarea {
 			input[type="button"].primary:hover,
 			button.primary:hover,
 			.button.primary:hover {
-				background-color: #47D3E5;
+				background-color:goldenrod;
 			}
 
 			input[type="submit"].primary:active,
@@ -2248,7 +2252,7 @@ input, select, textarea {
 			input[type="button"].primary:active,
 			button.primary:active,
 			.button.primary:active {
-				background-color: #1ebdd1;
+				background-color:goldenrod;
 			}
 
 /* Form */
@@ -2511,8 +2515,8 @@ input, select, textarea {
 		input[type="url"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #47D3E5;
-			box-shadow: 0 0 0 1px #47D3E5;
+			border-color:goldenrod;
+			box-shadow: 0 0 0 1px goldenrod;
 		}
 
 	select {
@@ -2543,8 +2547,8 @@ input, select, textarea {
 
 	input[type="checkbox"]:focus + label:before,
 	input[type="radio"]:focus + label:before {
-		border-color: #47D3E5;
-		box-shadow: 0 0 0 1px #47D3E5;
+		border-color: goldenrod;
+		box-shadow: 0 0 0 1px goldenrod;
 	}
 
 	::-webkit-input-placeholder {
@@ -2630,14 +2634,14 @@ input, select, textarea {
 	}
 
 	a.icon.style2:hover:before {
-		box-shadow: inset 0 0 0 1px #47D3E5;
-		color: #47D3E5;
+		box-shadow: inset 0 0 0 1px goldenrod;
+		color: goldenrod;
 	}
 
 	a.icon.style2:active:before {
 		background-color: rgba(71, 211, 229, 0.1);
-		box-shadow: inset 0 0 0 1px #47D3E5;
-		color: #47D3E5;
+		box-shadow: inset 0 0 0 1px goldenrod;
+		color: goldenrod;
 	}
 
 /* Image */
@@ -6397,7 +6401,7 @@ input, select, textarea {
 		}
 
 			.gallery.style1 a:hover {
-				color: #47D3E5;
+				color: goldenrod;
 			}
 
 		.gallery.style1 strong, .gallery.style1 b {
@@ -6413,7 +6417,7 @@ input, select, textarea {
 		}
 
 		.gallery.style1 code {
-			background: rgba(255, 255, 255, 0.125);
+			background: black;
 			border-color: white;
 		}
 
@@ -6436,8 +6440,8 @@ input, select, textarea {
 			.gallery.style1 input[type="button"]:hover,
 			.gallery.style1 button:hover,
 			.gallery.style1 .button:hover {
-				box-shadow: inset 0 0 0 1px #47D3E5;
-				color: #47D3E5 !important;
+				box-shadow: inset 0 0 0 1px goldenrod;
+				color: goldenrod !important;
 			}
 
 			.gallery.style1 input[type="submit"]:active,
@@ -6445,9 +6449,9 @@ input, select, textarea {
 			.gallery.style1 input[type="button"]:active,
 			.gallery.style1 button:active,
 			.gallery.style1 .button:active {
-				background-color: rgba(71, 211, 229, 0.2);
-				box-shadow: inset 0 0 0 1px #47D3E5;
-				color: #47D3E5 !important;
+				background-color:black;
+				box-shadow: inset 0 0 0 1p goldenrod;
+				color: goldenrod !important;
 			}
 
 			.gallery.style1 input[type="submit"].primary,
@@ -6465,7 +6469,7 @@ input, select, textarea {
 				.gallery.style1 input[type="button"].primary:hover,
 				.gallery.style1 button.primary:hover,
 				.gallery.style1 .button.primary:hover {
-					background-color: #47D3E5;
+					background-color: goldenrod;
 				}
 
 				.gallery.style1 input[type="submit"].primary:active,
@@ -6473,7 +6477,7 @@ input, select, textarea {
 				.gallery.style1 input[type="button"].primary:active,
 				.gallery.style1 button.primary:active,
 				.gallery.style1 .button.primary:active {
-					background-color: #1ebdd1;
+					background-color: goldenrod;
 				}
 
 		.gallery.style1 > .forward, .gallery.style1 > .backward {
@@ -6545,7 +6549,7 @@ input, select, textarea {
 				left: 0;
 				width: 100%;
 				height: 100%;
-				background-color: rgba(0, 0, 0, 0.5);
+				background-color:black;
 				opacity: 0;
 				padding: 2rem;
 				z-index: 1;
@@ -6721,7 +6725,7 @@ input, select, textarea {
 		}
 
 			.gallery.style2 a:hover {
-				color: #47D3E5;
+				color: goldenrod;
 			}
 
 		.gallery.style2 strong, .gallery.style2 b {
@@ -6737,7 +6741,7 @@ input, select, textarea {
 		}
 
 		.gallery.style2 code {
-			background: rgba(255, 255, 255, 0.125);
+			background:black;
 			border-color: white;
 		}
 
@@ -6761,7 +6765,7 @@ input, select, textarea {
 			.gallery.style2 button:hover,
 			.gallery.style2 .button:hover {
 				box-shadow: inset 0 0 0 1px #47D3E5;
-				color: #47D3E5 !important;
+				color:goldenrod !important;
 			}
 
 			.gallery.style2 input[type="submit"]:active,
@@ -6769,9 +6773,9 @@ input, select, textarea {
 			.gallery.style2 input[type="button"]:active,
 			.gallery.style2 button:active,
 			.gallery.style2 .button:active {
-				background-color: rgba(71, 211, 229, 0.2);
+				background-color: black;
 				box-shadow: inset 0 0 0 1px #47D3E5;
-				color: #47D3E5 !important;
+				color: goldenrod !important;
 			}
 
 			.gallery.style2 input[type="submit"].primary,
@@ -6789,7 +6793,7 @@ input, select, textarea {
 				.gallery.style2 input[type="button"].primary:hover,
 				.gallery.style2 button.primary:hover,
 				.gallery.style2 .button.primary:hover {
-					background-color: #47D3E5;
+					background-color: goldenrod;
 				}
 
 				.gallery.style2 input[type="submit"].primary:active,
@@ -6797,7 +6801,7 @@ input, select, textarea {
 				.gallery.style2 input[type="button"].primary:active,
 				.gallery.style2 button.primary:active,
 				.gallery.style2 .button.primary:active {
-					background-color: #1ebdd1;
+					background-color: goldenrod;
 				}
 
 		.gallery.style2 > .forward, .gallery.style2 > .backward {
@@ -7114,7 +7118,7 @@ input, select, textarea {
 		width: 100%;
 		height: 100%;
 		outline: 0;
-		background-color: rgba(0, 0, 0, 0.75);
+		background-color: black;
 		visibility: none;
 		opacity: 0;
 		z-index: 0;
@@ -7222,7 +7226,7 @@ input, select, textarea {
 	}
 
 	.gallery article .image {
-		background-color: rgba(0, 0, 0, 0.125);
+		background-color: black;
 	}
 
 /* Wrapper (style1) */
@@ -8284,7 +8288,7 @@ input, select, textarea {
 			}
 
 				#wrapper > .invert a:hover {
-					color: #47D3E5;
+					color: goldenrod;
 				}
 
 			#wrapper > .invert strong, #wrapper > .invert b {
@@ -8327,8 +8331,8 @@ input, select, textarea {
 				#wrapper > .invert input[type="button"]:hover,
 				#wrapper > .invert button:hover,
 				#wrapper > .invert .button:hover {
-					box-shadow: inset 0 0 0 1px #47D3E5;
-					color: #47D3E5 !important;
+					box-shadow: inset 0 0 0 1px goldenrod;
+					color: goldenrod !important;
 				}
 
 				#wrapper > .invert input[type="submit"]:active,
@@ -8337,8 +8341,8 @@ input, select, textarea {
 				#wrapper > .invert button:active,
 				#wrapper > .invert .button:active {
 					background-color: rgba(71, 211, 229, 0.2);
-					box-shadow: inset 0 0 0 1px #47D3E5;
-					color: #47D3E5 !important;
+					box-shadow: inset 0 0 0 1px goldenrod;
+					color: goldenrod !important;
 				}
 
 				#wrapper > .invert input[type="submit"].primary,
@@ -8356,7 +8360,7 @@ input, select, textarea {
 					#wrapper > .invert input[type="button"].primary:hover,
 					#wrapper > .invert button.primary:hover,
 					#wrapper > .invert .button.primary:hover {
-						background-color: #47D3E5;
+						background-color: goldenrod;
 					}
 
 					#wrapper > .invert input[type="submit"].primary:active,
@@ -8364,7 +8368,7 @@ input, select, textarea {
 					#wrapper > .invert input[type="button"].primary:active,
 					#wrapper > .invert button.primary:active,
 					#wrapper > .invert .button.primary:active {
-						background-color: #1ebdd1;
+						background-color: goldenrod;
 					}
 
 			#wrapper > .invert label {
@@ -8390,8 +8394,8 @@ input, select, textarea {
 				#wrapper > .invert input[type="url"]:focus,
 				#wrapper > .invert select:focus,
 				#wrapper > .invert textarea:focus {
-					border-color: #47D3E5;
-					box-shadow: 0 0 0 1px #47D3E5;
+					border-color: goldenrod;
+					box-shadow: 0 0 0 1px goldenrod;
 				}
 
 			#wrapper > .invert select {
@@ -8422,8 +8426,8 @@ input, select, textarea {
 
 			#wrapper > .invert input[type="checkbox"]:focus + label:before,
 			#wrapper > .invert input[type="radio"]:focus + label:before {
-				border-color: #47D3E5;
-				box-shadow: 0 0 0 1px #47D3E5;
+				border-color: goldenrod;
+				box-shadow: 0 0 0 1px goldenrod;
 			}
 
 			#wrapper > .invert ::-webkit-input-placeholder {
@@ -8447,14 +8451,14 @@ input, select, textarea {
 			}
 
 			#wrapper > .invert a.icon.style2:hover:before {
-				box-shadow: inset 0 0 0 1px #47D3E5;
-				color: #47D3E5;
+				box-shadow: inset 0 0 0 1px goldenrod;
+				color: goldenrod;
 			}
 
 			#wrapper > .invert a.icon.style2:active:before {
 				background-color: rgba(71, 211, 229, 0.1);
-				box-shadow: inset 0 0 0 1px #47D3E5;
-				color: #47D3E5;
+				box-shadow: inset 0 0 0 1px goldenrod;
+				color: goldenrod;
 			}
 
 			#wrapper > .invert ul.alt li {
@@ -8554,7 +8558,7 @@ input, select, textarea {
 			}
 
 			#wrapper > .invert .gallery article .image {
-				background-color: rgba(255, 255, 255, 0.125);
+				background-color: black;
 			}
 
 			#wrapper > .invert .items.style1 > * {
@@ -8621,6 +8625,7 @@ input, select, textarea {
 			
 			.inner span {
 				 font-family: 'Dancing Script', cursive; 
+				 color: goldenrod;
 			}
 			.icons a{
 				padding:5px;
@@ -8630,4 +8635,10 @@ input, select, textarea {
 			}
 			.inner h1{
 				padding:10px 0 0 0;
+			}
+			.image{
+				width:600px;
+				height:600px;
+				
+				background: pink;
 			}
