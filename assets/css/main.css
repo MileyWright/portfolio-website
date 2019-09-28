@@ -154,6 +154,7 @@ input, select, textarea {
 	body {
 		background-color: #ffffff;
 		color: #000000;
+		background:url('https://img.freepik.com/free-photo/natural-black-marble-texture-skin-tile-wallpaper-luxurious-background_24076-485.jpg?size=626&ext=jpg');
 	}
 
 	body, input, select, textarea {
@@ -6705,7 +6706,7 @@ input, select, textarea {
 /* Gallery (style2) */
 
 	.gallery.style2 {
-		background-color: #000000;
+		background: url('https://img.freepik.com/free-photo/natural-black-marble-texture-skin-tile-wallpaper-luxurious-background_24076-485.jpg?size=626&ext=jpg');
 		color: #ffffff;
 		display: -moz-flex;
 		display: -webkit-flex;
